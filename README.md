@@ -1,8 +1,7 @@
-# OOP
-# OOP
+
 # OOP Cheatsheet - C#
 
-## 1. Estructura de una Clase
+# 1. Estructura de una Clase
 
 ```csharp
 class MiClase
@@ -33,13 +32,13 @@ class MiClase
 }
 ```
 
-## 2. Encapsulamiento
-# En C#, se usan modificadores de acceso para el encapsulamiento:
+# 2. Encapsulamiento
+## En C#, se usan modificadores de acceso para el encapsulamiento:
 
-#Public: Accesible desde cualquier parte.
-#Private: Accesible solo dentro de la clase.
-#Protected: Accesible dentro de la clase y las clases derivadas.
-#Internal: Accesible dentro del mismo ensamblado.
+## Public: Accesible desde cualquier parte.
+## Private: Accesible solo dentro de la clase.
+## Protected: Accesible dentro de la clase y las clases derivadas.
+## Internal: Accesible dentro del mismo ensamblado.
 
 ```csharp
 
@@ -56,8 +55,8 @@ class EjemploEncapsulamiento
 }
 ```
 
-## 3. Herencia
-# C# soporta herencia simple, y se usa la palabra clave :.
+# 3. Herencia
+## C# soporta herencia simple, y se usa la palabra clave :.
 
 ```csharp
 
@@ -78,8 +77,8 @@ class Hijo : Padre  // Hereda de Padre
 }
 ```
 
-## 4. Propiedades (Getters y Setters)
-# En C#, las propiedades encapsulan la lógica de acceso a los campos. Usan get y set
+# 4. Propiedades (Getters y Setters)
+## En C#, las propiedades encapsulan la lógica de acceso a los campos. Usan get y set
 
 ```csharp
 
@@ -101,10 +100,10 @@ class Persona
 }
 ```
 
-## 5. Métodos Estáticos y de Clase
-# Métodos Estáticos
-# Un método estático en C# es un método que pertenece a la clase en lugar de a una instancia específica de esa clase. 
-# Esto significa que puedes llamar a un método estático sin tener que crear un objeto o una instancia de la clase.
+# 5. Métodos Estáticos y de Clase
+## Métodos Estáticos
+## Un método estático en C# es un método que pertenece a la clase en lugar de a una instancia específica de esa clase. 
+## Esto significa que puedes llamar a un método estático sin tener que crear un objeto o una instancia de la clase.
 
 ```csharp
 class OperacionesMatematicas
@@ -116,8 +115,8 @@ class OperacionesMatematicas
 }
 ```
 
-## 6. Sobrecarga de Métodos
-# C# soporta la sobrecarga de métodos nativamente mediante diferentes firmas (parámetros).
+# 6. Sobrecarga de Métodos
+## C# soporta la sobrecarga de métodos nativamente mediante diferentes firmas (parámetros).
 
 ```csharp
 
@@ -135,8 +134,8 @@ class EjemploSobrecarga
 }
 ```
 
-## 7. Sobreescritura de Métodos (Override)
-# En C#, se usa la palabra clave virtual en la clase base y override en la clase derivada para sobrescribir un método.
+# 7. Sobreescritura de Métodos (Override)
+## En C#, se usa la palabra clave virtual en la clase base y override en la clase derivada para sobrescribir un método.
 
 ```csharp
 
@@ -158,8 +157,8 @@ class Hijo : Padre
 ```
 
 
-## 8. Métodos Abstractos y Clases Abstractas
-# Para definir métodos abstractos, una clase debe ser abstracta, y los métodos deben ser implementados por las clases derivadas.
+# 8. Métodos Abstractos y Clases Abstractas
+## Para definir métodos abstractos, una clase debe ser abstracta, y los métodos deben ser implementados por las clases derivadas.
 
 ```csharp
 
