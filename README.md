@@ -4,7 +4,7 @@
 
 ## 1. Estructura de una Clase
 
-csharp
+```csharp
 class MiClase
 {
     // Atributo de Clase (Estático)
@@ -31,6 +31,7 @@ class MiClase
         Console.WriteLine($"Este es un método de clase: {atributoDeClase}");
     }
 }
+```
 
 ## 2. Encapsulamiento
 # En C#, se usan modificadores de acceso para el encapsulamiento:
@@ -40,7 +41,7 @@ class MiClase
 #Protected: Accesible dentro de la clase y las clases derivadas.
 #Internal: Accesible dentro del mismo ensamblado.
 
-csharp
+```csharp
 
 class EjemploEncapsulamiento
 {
@@ -53,12 +54,12 @@ class EjemploEncapsulamiento
         return privado;
     }
 }
-
+```
 
 ## 3. Herencia
 # C# soporta herencia simple, y se usa la palabra clave :.
 
-csharp
+```csharp
 
 class Padre
 {
@@ -75,12 +76,12 @@ class Hijo : Padre  // Hereda de Padre
         Console.WriteLine("Este es el método del hijo");
     }
 }
-
+```
 
 ## 4. Propiedades (Getters y Setters)
 # En C#, las propiedades encapsulan la lógica de acceso a los campos. Usan get y set
 
-csharp
+```csharp
 
 class Persona
 {
@@ -98,14 +99,14 @@ class Persona
         }
     }
 }
-
+```
 
 ## 5. Métodos Estáticos y de Clase
 # Métodos Estáticos
 # Un método estático en C# es un método que pertenece a la clase en lugar de a una instancia específica de esa clase. 
 # Esto significa que puedes llamar a un método estático sin tener que crear un objeto o una instancia de la clase.
 
-csharp
+```csharp
 class OperacionesMatematicas
 {
     public static int Sumar(int x, int y)
@@ -113,12 +114,12 @@ class OperacionesMatematicas
         return x + y;
     }
 }
-
+```
 
 ## 6. Sobrecarga de Métodos
 # C# soporta la sobrecarga de métodos nativamente mediante diferentes firmas (parámetros).
 
-csharp
+```csharp
 
 class EjemploSobrecarga
 {
@@ -132,12 +133,12 @@ class EjemploSobrecarga
         Console.WriteLine("Dos parámetros: " + a + ", " + b);
     }
 }
-
+```
 
 ## 7. Sobreescritura de Métodos (Override)
 # En C#, se usa la palabra clave virtual en la clase base y override en la clase derivada para sobrescribir un método.
 
-csharp
+```csharp
 
 class Padre
 {
@@ -154,13 +155,13 @@ class Hijo : Padre
         Console.WriteLine("Método sobrescrito en el hijo");
     }
 }
-
+```
 
 
 ## 8. Métodos Abstractos y Clases Abstractas
 # Para definir métodos abstractos, una clase debe ser abstracta, y los métodos deben ser implementados por las clases derivadas.
 
-csharp
+```csharp
 
 abstract class ClaseAbstracta
 {
@@ -174,3 +175,4 @@ class ClaseConcreta : ClaseAbstracta
         Console.WriteLine("Implementación del método abstracto");
     }
 }
+```
